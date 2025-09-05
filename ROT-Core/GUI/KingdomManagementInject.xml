@@ -1,0 +1,10 @@
+<Widget WidthSizePolicy="CoverChildren" HeightSizePolicy="CoverChildren" HorizontalAlignment="Left" MarginLeft="290">
+  <Children>
+	<ButtonWidget DoNotPassEventsToChildren="true" WidthSizePolicy="Fixed" HeightSizePolicy="Fixed" SuggestedWidth="280" SuggestedHeight="70" Brush="Popup.Done.Button" Command.Click="EditStorylineWars" GamepadNavigationIndex="0">
+	  <Children>
+		<TextWidget WidthSizePolicy="StretchToParent" HeightSizePolicy="StretchToParent" Brush="Popup.Button.Text" Text="@StorylineWarsText" />
+	  </Children>
+	</ButtonWidget>
+	<HintWidget DataSource="{StorylineWarsHint}" Command.HoverBegin="ExecuteBeginHint" Command.HoverEnd="ExecuteEndHint" />
+  </Children>
+</Widget>

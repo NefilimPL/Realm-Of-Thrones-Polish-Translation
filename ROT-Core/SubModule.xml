@@ -1,0 +1,67 @@
+﻿<Module>
+  <Name value="ROT-Core"/>
+  <Id value="ROT-Core"/>
+  <Version value="v1.2.12.72"/>
+  <SingleplayerModule value="true"/>
+  <MultiplayerModule value="false"/>
+  <DependedModules>
+    <DependedModule Id="Native" DependentVersion="v1.2.12" Optional="false"/>
+    <DependedModule Id="SandBoxCore" DependentVersion="v1.2.12" Optional="false"/>
+    <DependedModule Id="Sandbox" DependentVersion="v1.2.12" Optional="false"/>
+    <DependedModule Id="StoryMode" DependentVersion="v1.2.12" Optional="false"/>
+	<DependedModule Id="Bannerlord.Harmony" Optional="false"/>
+	<DependedModule Id="Bannerlord.UIExtenderEx" Optional="false" />
+  </DependedModules>
+  <ModuleType value="Community" />
+  <SubModules>
+	<SubModule>
+		<Name value="ROT"/>
+		<DLLName value="ROT.dll"/>
+		<SubModuleClassType value="ROT.SubModule"/>
+		<Tags>
+			<Tag key="DedicatedServerType" value="none" />
+			<Tag key="IsNoRenderModeElement" value="false" />
+		</Tags>
+	</SubModule>
+	<SubModule>
+      <Name value="MCMv5" />
+      <DLLName value="MCMv5.dll" />
+      <SubModuleClassType value="MCM.MCMSubModule" />
+      <Tags />
+    </SubModule>
+    <SubModule>
+      <Name value="MCMv5 Basic Implementation" />
+      <DLLName value="MCMv5.dll" />
+      <SubModuleClassType value="MCM.Internal.MCMImplementationSubModule" />
+      <Tags />
+    </SubModule>
+	<SubModule>
+		<Name value="StartDatePrototype"/>
+		<DLLName value="StartDatePrototype.dll"/>
+		<SubModuleClassType value="StartDatePrototype.SubModule"/>
+		<Tags>
+			<Tag key="DedicatedServerType" value="none" />
+			<Tag key="IsNoRenderModeElement" value="false" />
+		</Tags>
+	</SubModule>
+    <SubModule>
+      <Name value="BannerColorPersistence"/>
+      <DLLName value="BannerColorPersistence.dll"/>
+      <SubModuleClassType value="BannerColorPersistence.PersistColorSubModule"/>
+      <Tags>
+        <Tag key="DedicatedServerType" value="none" />
+        <Tag key="IsNoRenderModeElement" value="false" />
+      </Tags>
+    </SubModule>
+	<SubModule>
+      <Name value="StopStarvingYourselves"/>
+      <DLLName value="StopStarvingYourselves.dll"/>
+      <SubModuleClassType value="StopStarvingYourselves.SubModule"/>
+      <Tags>
+        <Tag key="DedicatedServerType" value="none" />
+        <Tag key="IsNoRenderModeElement" value="false" />
+      </Tags>
+    </SubModule>
+  </SubModules>	
+  <Xmls/>
+</Module>

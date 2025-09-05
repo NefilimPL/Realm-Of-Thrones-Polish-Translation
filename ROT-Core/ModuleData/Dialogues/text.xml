@@ -1,0 +1,10 @@
+<DialogueLines>
+	<Conversation id="maester_poppy_talk" heroID="" characterID="septon">
+		<DialogueLine nextPage="ask" text="{=ROTUAJijGu0}Can you sell me milk of the poppy my good maester?" isPlayerLine="true" conditionDelegate="MarkPycelleMet" />
+		<DialogueLine page="ask" nextPage="buy" text="{=ROTNeSXldoW}I only have the best, fit for kings; it will not come cheap." />
+		<DialogueLine page="buy" nextPage="thank_you" text="{=ROTsFRq8DTo}Sure, show me what you have." isPlayerLine="true" consequenceDelegate="BuyPoppy" />
+		<DialogueLine page="buy" nextPage="come_back_soon" text="{=ROTA7g9Gh4p}I'm sorry maester, I am running a little short." isPlayerLine="true" />
+		<DialogueLine page="thank_you" nextPage="end" text="{=ROTwEip3J5U}Thank you." />
+		<DialogueLine page="come_back_soon" nextPage="end" text="{=ROTtMWJRuXu}You'll be back." />
+	</Conversation>
+</DialogueLines>

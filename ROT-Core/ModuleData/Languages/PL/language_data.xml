@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+              xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/BUTR/Bannerlord.XmlSchemas/master/ModuleLanguageData.xsd"
+              id="Polish"
+              name="Polish"
+              subtitle_extension="pl-PL"
+              supported_iso="pl,pl-PL,pol"
+              under_development="true">
+        <LanguageFile xml_path="PL/str_polish.xml" />
+</LanguageData>

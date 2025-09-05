@@ -1,14 +1,11 @@
 <?xml version="1.0" ?>
 <base type="string">
     <tags>
-        
-        
-        <tag language="English"/>
-        
-	
+        <tag language="Polish"/>
+        <tag language="pl"/>
+        <tag language="pl-PL"/>
+        <tag language="pol"/>
     </tags>
-    
-    
     <strings>
         <string id="WBl5hS0e" text="Yohn Royce, znany jako „Brązowy” Yohn, jest władcą Runestone i szefem starszego oddziału House Royce.Lord Royce jest słynnym rycerzem turnieju, który podczas rywalizacji zakłada zestaw brązowej zbroi.Mówi się, że zbroja ma tysiące lat, a jej wpisane runy mogą rzekomo odeprzeć właściciela od szkody."/>
         <string id="ROT8ced0714d" text="Lady Royce z Runestone, żona Lorda Yohna Royce'a."/>
